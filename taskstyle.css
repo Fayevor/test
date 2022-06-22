@@ -1,8 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    
 }
+
+@media screen and (max-width: 1440px) {    
+}
+
+@media screen and (max-width: 700px) {
+    .header{
+        width: 100%;
+    }
+    
+ .container{
+    display: block;
+    margin: 16px;
+    width: 100%;
+gap: 48px
+ }
+  
+}
+    
+     
+.container{
+display: flex;
+gap: 48px;
+margin: 120px;
+align-content: center;
+}
+
 body{
-background-color: blue;
+    
+    height: 100vh;
+    margin: 24px;
+    font-family: Poppins;
+background-color: hsl(0, 100%, 74%);
+background-image: url("file:///C:/Users/Sony%20pc/Downloads/images-20220619T075304Z-001/images/bg-intro-desktop.png")
+}
+
+.header{
+margin-top: 120px;
+
+}
+.header h1{
+    font-weight: 700;
+    color: white;
+}
+
+.header p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: white;  
+}
+
+.Formfield input{
+    padding: 12px;
+    width: 352px ;  
+    display: block;
+    margin-top: 8px;
+    border-color: hsl(246, 25%, 77%);   
+}
+
+
+.Formfield .btn1 button {
+width: 424px;
+padding: 18px;
+border-radius: 6px;
+border: none;
+
+
+background-color: hsl(248, 32%, 49%);
+box-shadow: 0px 1px 10px 0px hsl(249, 5%, 26%);
+
+}
+
+.btn1 button{
+    color: hsl(246, 25%, 77%);
+       
+}
+
+.btn1 button b{
+color: hsl(0, 0%, 100%);
+}
+
+.card1{
+padding: 24px 0px 24px 0px;
+background-color: white;
+width: 424px;
+position: absolute;
+top: 192px; 
+border-radius: 6px;
+padding-top: 24px;
+padding-bottom: 40px;
+box-shadow: 0px 1px 10px 0px hsl(249, 5%, 35%);
+}
+
+.card1 p{
+    font-size: 10px;
+text-align: center;
+margin-top: 8px ;
+color:hsl(246, 25%, 77%); 
+}
+
+.card1 a{
+    color: hsl(0, 100%, 74%);
+}
+
+.card1 input{
+    margin:16px 36px 16px 36px;
+    border-radius: 6px;
+    border-color: hsl(246, 25%, 77%);   
+    border: 1px  solid;
+    padding-left: 16px;
+}
+
+.registrationbutton a{
+    color: rgb(15, 87, 64);
+}
+
+.registrationbutton{
+    width: 352px; 
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 6px;
+    padding: 18px;
+    margin: 8px 36px 0px 36px;
+    color: white;
 }
